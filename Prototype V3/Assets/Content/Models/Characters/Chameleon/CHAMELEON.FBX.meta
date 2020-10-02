@@ -1,0 +1,2451 @@
+fileFormatVersion: 2
+guid: 327bb984db5620a409e893ab4bebafdb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cameleon
+    100002: Cameleon Armor
+    100004: Cameleon Crystal
+    100006: Cameleon Necklet
+    100008: Cameleon Wand
+    100010: //RootNode
+    100012: cloakFront
+    100014: cloakFront_Controller
+    100016: collar_03
+    100018: CONTROLLERS09
+    100020: Dummy001
+    100022: head
+    100024: HIP
+    100026: jaw
+    100028: L_arm_01
+    100030: L_arm_02
+    100032: L_cloak_01
+    100034: L_cloak_02
+    100036: L_cloak_03
+    100038: L_cloak_Controller_01
+    100040: L_cloak_Controller_02
+    100042: L_cloak_Controller_03
+    100044: L_cloak_Controller_04
+    100046: L_cloak_Controller_05
+    100048: L_cloak_Controller_06
+    100050: L_cloak_Controller_06 1
+    100052: L_collar
+    100054: L_collar_Controller
+    100056: L_feet_01
+    100058: L_feet_02
+    100060: L_feet_Controller_01
+    100062: L_feet_Controller_02
+    100064: L_finger_01
+    100066: L_finger_02
+    100068: L_finger_03
+    100070: L_finger_04
+    100072: L_hand
+    100074: L_leg_0101
+    100076: L_leg_0201
+    100078: L_legArmor
+    100080: L_legArmor_Controller
+    100082: L_shoulder
+    100084: L_shoulderPad
+    100086: L_shoulderPad_Controller
+    100088: neck
+    100090: R_arm_01
+    100092: R_arm_02
+    100094: R_cloak_01
+    100096: R_cloak_02
+    100098: R_cloak_03
+    100100: R_cloak_Controller_01
+    100102: R_cloak_Controller_02
+    100104: R_cloak_Controller_03
+    100106: R_cloak_Controller_04
+    100108: R_cloak_Controller_05
+    100110: R_cloak_Controller_06
+    100112: R_cloak_Controller_06 1
+    100114: R_collar
+    100116: R_collar_Controller
+    100118: R_END_01
+    100120: R_END_02
+    100122: R_END_03
+    100124: R_END_04
+    100126: R_END_05
+    100128: R_END_06
+    100130: R_END_07
+    100132: R_END_08
+    100134: R_END_09
+    100136: R_END_10
+    100138: R_END_11
+    100140: R_END_12
+    100142: R_END_13
+    100144: R_END_14
+    100146: R_END_15
+    100148: R_END_16
+    100150: R_END_17
+    100152: R_END_18
+    100154: R_END_19
+    100156: R_END_20
+    100158: R_feet_01
+    100160: R_feet_02
+    100162: R_feet_Controller_01
+    100164: R_feet_Controller_02
+    100166: R_finger_01
+    100168: R_finger_02
+    100170: R_finger_03
+    100172: R_finger_04
+    100174: R_hand
+    100176: R_leg_01
+    100178: R_leg_02
+    100180: R_legArmor_Controller
+    100182: R_shoulder
+    100184: R_shoulderPad
+    100186: R_shoulderPad_Controller
+    100188: R_weapon
+    100190: spline_01
+    100192: spline_02
+    100194: tail_01
+    100196: tail_02
+    100198: tail_03
+    100200: tail_04
+    100202: tail_05
+    100204: WeaponController_01
+    100206: WeaponController_02
+    400000: Cameleon
+    400002: Cameleon Armor
+    400004: Cameleon Crystal
+    400006: Cameleon Necklet
+    400008: Cameleon Wand
+    400010: //RootNode
+    400012: cloakFront
+    400014: cloakFront_Controller
+    400016: collar_03
+    400018: CONTROLLERS09
+    400020: Dummy001
+    400022: head
+    400024: HIP
+    400026: jaw
+    400028: L_arm_01
+    400030: L_arm_02
+    400032: L_cloak_01
+    400034: L_cloak_02
+    400036: L_cloak_03
+    400038: L_cloak_Controller_01
+    400040: L_cloak_Controller_02
+    400042: L_cloak_Controller_03
+    400044: L_cloak_Controller_04
+    400046: L_cloak_Controller_05
+    400048: L_cloak_Controller_06
+    400050: L_cloak_Controller_06 1
+    400052: L_collar
+    400054: L_collar_Controller
+    400056: L_feet_01
+    400058: L_feet_02
+    400060: L_feet_Controller_01
+    400062: L_feet_Controller_02
+    400064: L_finger_01
+    400066: L_finger_02
+    400068: L_finger_03
+    400070: L_finger_04
+    400072: L_hand
+    400074: L_leg_0101
+    400076: L_leg_0201
+    400078: L_legArmor
+    400080: L_legArmor_Controller
+    400082: L_shoulder
+    400084: L_shoulderPad
+    400086: L_shoulderPad_Controller
+    400088: neck
+    400090: R_arm_01
+    400092: R_arm_02
+    400094: R_cloak_01
+    400096: R_cloak_02
+    400098: R_cloak_03
+    400100: R_cloak_Controller_01
+    400102: R_cloak_Controller_02
+    400104: R_cloak_Controller_03
+    400106: R_cloak_Controller_04
+    400108: R_cloak_Controller_05
+    400110: R_cloak_Controller_06
+    400112: R_cloak_Controller_06 1
+    400114: R_collar
+    400116: R_collar_Controller
+    400118: R_END_01
+    400120: R_END_02
+    400122: R_END_03
+    400124: R_END_04
+    400126: R_END_05
+    400128: R_END_06
+    400130: R_END_07
+    400132: R_END_08
+    400134: R_END_09
+    400136: R_END_10
+    400138: R_END_11
+    400140: R_END_12
+    400142: R_END_13
+    400144: R_END_14
+    400146: R_END_15
+    400148: R_END_16
+    400150: R_END_17
+    400152: R_END_18
+    400154: R_END_19
+    400156: R_END_20
+    400158: R_feet_01
+    400160: R_feet_02
+    400162: R_feet_Controller_01
+    400164: R_feet_Controller_02
+    400166: R_finger_01
+    400168: R_finger_02
+    400170: R_finger_03
+    400172: R_finger_04
+    400174: R_hand
+    400176: R_leg_01
+    400178: R_leg_02
+    400180: R_legArmor_Controller
+    400182: R_shoulder
+    400184: R_shoulderPad
+    400186: R_shoulderPad_Controller
+    400188: R_weapon
+    400190: spline_01
+    400192: spline_02
+    400194: tail_01
+    400196: tail_02
+    400198: tail_03
+    400200: tail_04
+    400202: tail_05
+    400204: WeaponController_01
+    400206: WeaponController_02
+    2300000: Cameleon Crystal
+    2300002: Cameleon Necklet
+    2300004: Cameleon Wand
+    3300000: Cameleon Crystal
+    3300002: Cameleon Necklet
+    3300004: Cameleon Wand
+    4300000: Cameleon Necklet
+    4300002: Cameleon
+    4300004: Cameleon Armor
+    4300006: Cameleon Wand
+    4300008: Cameleon Crystal
+    7400000: Cham_All
+    7400002: Cham_Idle
+    7400004: Cham_Run
+    7400006: Cham_Damage
+    7400008: Cham_Salute
+    7400010: Cham_Attack01
+    7400012: Cham_Attack02
+    7400014: Cham_Attack03
+    7400016: Cham_Death
+    9500000: //RootNode
+    13700000: Cameleon
+    13700002: Cameleon Armor
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAMELEON
+    second: {fileID: 2100000, guid: de6756ce021e1d644a5bc210aa560d3c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cham_All
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Idle
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Run
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Damage
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Salute
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 247
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Attack01
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 304
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Attack02
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 356
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Attack03
+      takeName: Take 001
+      firstFrame: 356
+      lastFrame: 395
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cham_Death
+      takeName: Take 001
+      firstFrame: 401
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cameleon
+        weight: 1
+      - path: Cameleon Armor
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Cameleon Wand
+        weight: 1
+      - path: Dummy001/Cameleon Wand/Cameleon Crystal
+        weight: 1
+      - path: HIP
+        weight: 1
+      - path: HIP/cloakFront_Controller
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront
+        weight: 1
+      - path: HIP/cloakFront_Controller/cloakFront/R_END_16
+        weight: 1
+      - path: HIP/L_leg_0101
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02
+        weight: 1
+      - path: HIP/L_leg_0101/L_leg_0201/L_feet_01/L_feet_02/R_END_20
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor
+        weight: 1
+      - path: HIP/L_leg_0101/L_legArmor_Controller/L_legArmor/R_END_15
+        weight: 1
+      - path: HIP/R_leg_01
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller
+        weight: 1
+      - path: HIP/R_leg_01/CONTROLLERS09/R_legArmor_Controller/R_END_18
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02
+        weight: 1
+      - path: HIP/R_leg_01/R_leg_02/R_feet_01/R_feet_02/R_END_17
+        weight: 1
+      - path: HIP/spline_01
+        weight: 1
+      - path: HIP/spline_01/spline_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/Cameleon Necklet
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_01/L_finger_02/R_END_11
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_arm_01/L_arm_02/L_hand/L_finger_03/L_finger_04/R_END_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_collar_Controller/L_collar/R_END_06
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/L_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/L_shoulder/L_shoulderPad_Controller/L_shoulderPad/R_END_05
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/collar_03/R_END_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/jaw/R_END_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/neck/head/R_END_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_01/R_finger_02/R_END_13
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/R_finger_04/R_END_07
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/R_finger_03/WeaponController_02
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_arm_01/R_arm_02/R_hand/WeaponController_01/R_weapon/R_END_19
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_collar_Controller/R_collar/R_END_09
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_cloak_Controller_01
+        weight: 1
+      - path: HIP/spline_01/spline_02/R_shoulder/R_shoulderPad_Controller/R_shoulderPad/R_END_12
+        weight: 1
+      - path: HIP/tail_01
+        weight: 1
+      - path: HIP/tail_01/tail_02
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05
+        weight: 1
+      - path: HIP/tail_01/tail_02/tail_03/tail_04/tail_05/R_END_08
+        weight: 1
+      - path: L_cloak_01
+        weight: 1
+      - path: L_cloak_01/L_cloak_02
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03
+        weight: 1
+      - path: L_cloak_01/L_cloak_02/L_cloak_03/R_END_14
+        weight: 1
+      - path: L_cloak_Controller_02
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04
+        weight: 1
+      - path: L_cloak_Controller_02/L_cloak_Controller_03/L_cloak_Controller_04/L_cloak_Controller_05
+        weight: 1
+      - path: L_cloak_Controller_06
+        weight: 1
+      - path: L_cloak_Controller_06 1
+        weight: 1
+      - path: L_feet_Controller_01
+        weight: 1
+      - path: L_feet_Controller_01/L_feet_Controller_02
+        weight: 1
+      - path: R_cloak_01
+        weight: 1
+      - path: R_cloak_01/R_cloak_02
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03
+        weight: 1
+      - path: R_cloak_01/R_cloak_02/R_cloak_03/R_END_10
+        weight: 1
+      - path: R_cloak_Controller_02
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04
+        weight: 1
+      - path: R_cloak_Controller_02/R_cloak_Controller_03/R_cloak_Controller_04/R_cloak_Controller_05
+        weight: 1
+      - path: R_cloak_Controller_06
+        weight: 1
+      - path: R_cloak_Controller_06 1
+        weight: 1
+      - path: R_feet_Controller_01
+        weight: 1
+      - path: R_feet_Controller_01/R_feet_Controller_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.015
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

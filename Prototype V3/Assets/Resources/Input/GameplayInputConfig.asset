@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c194c01197f7c4899c9aae27b31808, type: 3}
+  m_Name: GameplayInputConfig
+  m_EditorClassIdentifier: 
+  horizontalBinding:
+    axisName: Horizontal
+    buttonOrKey: 0
+    bindingType: 3
+    invokeInFixedUpdate: 0
+  verticalBinding:
+    axisName: Vertical
+    buttonOrKey: 0
+    bindingType: 3
+    invokeInFixedUpdate: 0
+  attackBinding:
+    axisName: 
+    buttonOrKey: 102
+    bindingType: 0
+    invokeInFixedUpdate: 0
+  camHorizontalBinding:
+    axisName: CamHorizontal
+    buttonOrKey: 0
+    bindingType: 3
+    invokeInFixedUpdate: 0
+  camVerticalBinding:
+    axisName: CamVertical
+    buttonOrKey: 0
+    bindingType: 3
+    invokeInFixedUpdate: 0
+  interactBinding:
+    axisName: 
+    buttonOrKey: 101
+    bindingType: 0
+    invokeInFixedUpdate: 0
+  toggleTargetingBinding:
+    axisName: 
+    buttonOrKey: 116
+    bindingType: 0
+    invokeInFixedUpdate: 0
+  nextTargetBinding:
+    axisName: 
+    buttonOrKey: 114
+    bindingType: 0
+    invokeInFixedUpdate: 0
+  primarySkillBinding:
+    axisName: 
+    buttonOrKey: 122
+    bindingType: 0
+    invokeInFixedUpdate: 0
+  secondarySkillBinding:
+    axisName: 
+    buttonOrKey: 120
+    bindingType: 0
+    invokeInFixedUpdate: 0

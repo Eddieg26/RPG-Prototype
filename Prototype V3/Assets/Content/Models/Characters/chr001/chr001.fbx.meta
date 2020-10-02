@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: e1c490663010681439e7c7bd831193c9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chest
+    100002: //RootNode
+    100004: head
+    100006: hip
+    100008: Larm
+    100010: Lelbow
+    100012: Lfoot
+    100014: Lhand
+    100016: Lknee
+    100018: Lleg
+    100020: Lshield
+    100022: Lshoulder
+    100024: Lwep
+    100026: mod_bdy
+    100028: mod_eqp
+    100030: mod_fce
+    100032: mod_har
+    100034: mod_wep
+    100036: neck
+    100038: Rarm
+    100040: Relbow
+    100042: Rfoot
+    100044: Rhand
+    100046: Rknee
+    100048: Rleg
+    100050: root
+    100052: Rshield
+    100054: Rshoulder
+    100056: Rwep
+    100058: trans
+    100060: waist
+    400000: chest
+    400002: //RootNode
+    400004: head
+    400006: hip
+    400008: Larm
+    400010: Lelbow
+    400012: Lfoot
+    400014: Lhand
+    400016: Lknee
+    400018: Lleg
+    400020: Lshield
+    400022: Lshoulder
+    400024: Lwep
+    400026: mod_bdy
+    400028: mod_eqp
+    400030: mod_fce
+    400032: mod_har
+    400034: mod_wep
+    400036: neck
+    400038: Rarm
+    400040: Relbow
+    400042: Rfoot
+    400044: Rhand
+    400046: Rknee
+    400048: Rleg
+    400050: root
+    400052: Rshield
+    400054: Rshoulder
+    400056: Rwep
+    400058: trans
+    400060: waist
+    2100000: chr001har_mat
+    2100002: chr001fce_mat
+    2100004: chr001bdy_mat
+    2100006: wep001_mat
+    4300000: mod_har
+    4300002: mod_fce
+    4300004: mod_bdy
+    4300006: mod_eqp
+    4300008: mod_wep
+    9500000: //RootNode
+    13700000: mod_bdy
+    13700002: mod_eqp
+    13700004: mod_fce
+    13700006: mod_har
+    13700008: mod_wep
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chr001bdy_mat
+    second: {fileID: 2100000, guid: fa6eb0d69a63a524e92f06de04ee9160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chr001fce_mat
+    second: {fileID: 2100000, guid: 019038e4abf5d5348a66d0038e250402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chr001har_mat
+    second: {fileID: 2100000, guid: 3c732b93dec2bfd4da4921ffcb5b8099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wep001_mat
+    second: {fileID: 2100000, guid: 9f61fd7283008e640ab8738440e670e7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

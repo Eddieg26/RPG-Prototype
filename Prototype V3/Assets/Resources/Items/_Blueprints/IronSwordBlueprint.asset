@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a7aac5d26e6c6499d4c44102ef0f1e, type: 3}
+  m_Name: IronSwordBlueprint
+  m_EditorClassIdentifier: 
+  targetItem: {fileID: 11400000, guid: 65fd9c40c8c433c46806c8780c21ff1f, type: 2}
+  craftingItems:
+  - amount: 2
+    referencedItem: {fileID: 11400000, guid: 47d1c913f8eb78745ac656aa0355d629, type: 2}
+  - amount: 1
+    referencedItem: {fileID: 11400000, guid: 548ca121a2da5904fb6ac243b7338087, type: 2}
+  - amount: 1
+    referencedItem: {fileID: 11400000, guid: ba27ce07f2179b34f88381bd97071ecc, type: 2}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1143832761431461964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143832761431461963}
+  - component: {fileID: 1143832761431461962}
+  - component: {fileID: 1143832761431461961}
+  m_Layer: 0
+  m_Name: PauseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1143832761431461963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143832761431461964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1143832761431461962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143832761431461964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3588f9fe4d891240b6a33d7e6e729dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  togglePauseEvent: {fileID: 11400000, guid: 2b209cb8d57cabd41bdc8e7e57f2b39e, type: 2}
+  forcePauseEvent: {fileID: 11400000, guid: 8fbac3df966931143ae7478e562240d8, type: 2}
+  openPauseViewAction: {fileID: 11400000, guid: 3fefb7743bd028b42919d2846dc5ea4e,
+    type: 2}
+  closePauseViewAction: {fileID: 11400000, guid: d6001e3804024a0489722332e5f2f17d,
+    type: 2}
+--- !u!114 &1143832761431461961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143832761431461964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d103260a17d26744ea983f7cc2e8cee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputConfiguration: {fileID: 11400000, guid: 24293f97182e644479a5a4649e8f202f, type: 2}
+  inputManager: {fileID: 11400000, guid: 524c9d37f1d588d4bbd5b781806f196b, type: 2}
+  gainControlOnStart: 0
+  unrestricted: 1
